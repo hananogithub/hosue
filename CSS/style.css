@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+body{
+    color: #121212;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+a{
+    color: #121212;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    vertical-align: bottom;
+}
+li{
+    list-style: none;
+}
+
+.container{
+    margin-left: 300px;
+}
+
+.wrapper{
+    max-width: 900px;
+    padding: 80px 20px;
+    margin: 0 auto;
+}
+
+.site-title{
+    width: 200px;
+    line-height: 1px;
+    margin-bottom: 30px;
+}
+
+.site-title a {
+    display: block;
+}
+
+.sec-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.75rem;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.sec-title::before,
+.sec-title::after{
+    border-top: 1px solid;
+    content: "";
+    width: 28%;
+}
+
+/* header */
+#header{
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    padding: 40px 50px 30px 45px;
+    position: fixed;
+    top: 0;
+    overflow-y: auto;
+}
+#header .nav-menu{
+    margin-bottom: 60px;
+}
+#header li{
+    font-size: 0.875rem;
+    padding: 8px 0;
+}
+
+/*video*/
+#video{
+    width: 100%;
+    height: 100vh;
+}
+#video .bg-video{
+    position: fixed
+    top: -220px;
+    z-index: -10;
+}
+
+/*Project*/
+#project{
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8));
+    color: #fff;
+}
+#project .list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#project .list li{
+    width: 47%;
+    border: solid 1px #fff;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#project .list li:last-child,
+#project .list li:nth-last-child(2){
+    margin-bottom: 0;
+}
+#project .list li a{
+    display: block;
+}
+
+#project .list li a::after{
+    content: "";
+    box-shadow: 0 -30px 15px -1px #2e2e2e inset;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#project .list .name{
+    color: #fff;
+    font-size: 0.75rem;
+    position: absolute;
+    bottom: 4px;
+    left: 7px;
+    z-index: 5;
+}
