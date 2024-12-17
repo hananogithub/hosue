@@ -161,4 +161,12 @@ li{
     margin-bottom: 5px;
 }
 
+/* Flow */
+#flow{
+    background-color: #fff;
+    padding-top: 40px;
+}
+#flow .step{
+    
+}
 
