@@ -78,7 +78,7 @@ li{
     height: 100vh;
 }
 #video .bg-video{
-    position: fixed
+    position: fixed;
     top: -220px;
     z-index: -10;
 }
