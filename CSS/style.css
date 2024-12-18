@@ -289,7 +289,7 @@ li{
     font-size: 0.875rem;
     padding: 0 20px;
 }
-##footer .menu li:last-child{
+#footer .menu li:last-child{
     border-right: none;
 }
 #footer .menu li a{
@@ -369,7 +369,7 @@ li{
         opacity: 1;
     }
     #navi ul.nav-menu{
-        [margin-bottom: 30px;
+        margin-bottom: 30px;
     }
     #navi ul li{
         padding: 10px 0;
