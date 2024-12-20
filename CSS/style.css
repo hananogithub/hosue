@@ -163,7 +163,7 @@ li{
     top: 0;
     left: -100%;
     opacity: 0.3;
-    transition: o.5s;
+    transition: 0.5s;
 }
 #feature .list li a:hover::before{
     left: 0;
@@ -400,32 +400,33 @@ li{
     .hamburger span{
         width: 30px;
         height: 2px;
+        border-radius: 4px;
         background-color: #121212;
         display: block;
         position: absolute;
         left: 0;
         transition: 0.5s;
     }
-    .hamburger span:nth0child(1){
+    .hamburger span:nth-child(1){
         top: 4px;
     }
-    .hamburger span:nth0child(2){
+    .hamburger span:nth-child(2){
         top: 14px;
     }
-    .hamburger span:nth0child(3){
+    .hamburger span:nth-child(3){
         bottom: 4px;
     }
     .oepn .hamburger span{
         background-color: #fff;
     }
     .open .hamburger span:nth-child(1){
-        transform: translateY(10px) rortate(-315deg);
+        transform: translateY(10px) rotate(-315deg);
     }
     .open .hamburger span:nth-child(2){
         opacity: 0;
     }
     .open .hamburger span:nth-child(3){
-        transform: translateY(-10px) rortate(315deg);
+        transform: translateY(-10px) rotate(315deg);
     }
     #mask{
         display: none;
@@ -510,7 +511,7 @@ li{
         margin-top: 30px;
     }
     #contact .link .item{
-        width: 60px;
+        width: 60%;
         margin: 20px 0 0 0;
     }
     #contact .link .item:first-child{
