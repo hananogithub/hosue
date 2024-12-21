@@ -148,7 +148,7 @@ li{
     border-radius: 50%;
     color: #fff;
     display: block;
-    padding: calc(50% - 11px);
+    padding: calc(50% - 11px) 0;
     margin-bottom: 15px;
     text-align: center;
     position: relative;
@@ -387,7 +387,7 @@ li{
     #navi ul li{
         padding: 10px 0;
     }
-    .humburger{
+    .hamburger{
         width: 30px;
         height: 30px;
         cursor: pointer;
