@@ -223,7 +223,7 @@ li{
 #flow .description{
     margin-left: 10%;
 }
-#flow ,description dt{
+#flow .description dt{
     border-bottom: solid 1px #121212;
     font-size: 1.25rem;
     padding-bottom: 8px;
@@ -261,7 +261,7 @@ li{
     justify-content: space-between;
     margin-top: 60px;
 }
-#contact .link item{
+#contact .link .item{
     width: 30%;
     border: solid 1px #121212;
     display: block;
